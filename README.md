@@ -1,7 +1,9 @@
-# PHP ODBC Excel PoC
-A simple proof-of-concept you can use `.xls` files as your database in PHP!
+# PHP ODBC - PoC
+Proof-of-concept you can use `.xls` files (aka. Excel Spreadsheets) as your database in PHP!
 
-Features a connection using Microsoft’s ACE ODBC driver.
+Features a <sup>1</sup>DSN-less connection using Microsoft’s ACE ODBC driver.
+
+<sup>1</sup> Does not rely on a pre-configured DSN in the ODBC Data Source Administrator.
 
 ## Screenshots
 ![Excel ODBC PoC screenshot](resources/screenshot.png)
